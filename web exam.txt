@@ -1,0 +1,41 @@
+HTML coe
+<htm>
+<head><tile>web page designing></head>
+<body>
+<h1><b>course curriculum<b></h>
+<p>this page explaine the whole year <b>course curriculum<b> of the <i>htmkl language<i> and &copy;,&lt;,&gt;.<p>
+<hr>
+<h2>subject of <u>cse 21<u> </h2>
+<ol>
+<li>mathematics</li>
+<li mechanical<li>
+<li>computer science<li>
+<h2>unodered list</h2>
+<ul>
+<li>python</li>
+<li>java scipt</li>
+<h2>unodered</h2>
+<ul>
+<li>java use for understanding<li>
+<h2>description of couse</h2>
+<dl>
+<dd>dsa teacher is xyz<dd>
+<dt>web desining</dt>
+<h2>nested lisr</h2>
+<ol>
+<li>teacher is best</li>
+<li>dsa is best language</li>
+<ul>
+<li>dsa is a language<li>
+<h2>mixed list</h2>
+<ol>
+<li>java is used in company</li>
+<li>pthon used in school<li>
+<ol>
+<li>cse 21</li>
+
+
+
+
+
+
