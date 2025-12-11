@@ -1,28 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="experiment6.css">
-    <title>E-Commerce Product Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shirt Sale</title>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f6f8;
+
+        height: 100vh;
+    }
+
+    .contenet{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .header{
+        background-color: black;
+        color: white;
+        height: 10%;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+
+
+    .product-card {
+      background-color: rgb(249, 243, 243);
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      width: 320px;
+      text-align: center;
+      padding: 20px;
+      
+    }
+
+    .product-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .product-name {
+      font-size: 1.5em;
+      margin-top: 15px;
+      color: #333;
+    }
+
+    .product-price {
+      color: #007b00;
+      font-size: 1.2em;
+      margin: 10px 0;
+    }
+
+    .product-quality {
+      color: #666;
+      font-size: 1em;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 10px 5px;
+      padding: 10px 20px;
+      font-size: 1em;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn-buy {
+      background-color: #28a745;
+      color: white;
+    }
+
+    .btn-cart {
+      background-color: #007bff;
+      color: white;
+    }
+
+    .btn:hover {
+      opacity: 0.8;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">ShopEasy</div>
-        <div class="card">
-            <img src="files/WhatsApp Image 2025-11-07 at 06.01.29_d4c3d9c1.jpg" alt="T-shirt">
-        <div class="prname">
-            Classic Cotton T-Shirt
-        </div>
-        <div class="description">Soft, breathable cotton, Regular Fit, Available in multiple colors.</div>
-        <div>
-            <span class="saleprice">₹799</span>
-            <span class="orgnlprice">₹1,199</span>
-            
-        </div>
-        <button class="button">Add to Cart</button>
-        </div>
-    </div>
+    <div class="header">SHOP EASY</div>
+  <div class="contenet">
+
+    <div class="product-card">
+    
+    <img src="SHIRT.jpg" alt="Men's Casual Shirt">
+    <div class="product-name">Classic Cotton T-Shirt</div>
+    <div class="product-quality">Soft Breathable cottan,Regular fit,Available in multiple color</div>
+    <div class="product-price">₹799</div>
+    <button class="btn btn-buy">Buy Now</button>
+    <button class="btn btn-cart">Add to Cart</button>
+  </div>
+  </div>
+    
+  
 
 </body>
 </html>
